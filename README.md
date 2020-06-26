@@ -7,8 +7,8 @@ This repository centralizes the logs by the systems, the package contains integr
 
 
 ## FEATURES
-  -Send custom messages for GrayLog
-  -Logs information on method execution
+  1. Send custom messages for GrayLog
+  2. Logs information on method execution
   
 
 
