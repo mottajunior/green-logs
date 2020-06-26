@@ -1,7 +1,7 @@
 {
   "name": "green-logs",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a package for centralizing logs in different applications in our eco system",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
