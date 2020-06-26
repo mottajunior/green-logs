@@ -8,7 +8,7 @@ This repository centralizes the logs by the systems, the package contains integr
 
 ## FEATURES
   1. Send custom messages for GrayLog
-  2. Logs information on method execution
+  2. Logs information on method execution With Decorators
   
 
 
@@ -17,6 +17,15 @@ This repository centralizes the logs by the systems, the package contains integr
 
 
 ## USAGE
+
+  let log = new GreenLogs(GrayLogHost)
+    let message: LogOptions = {
+      short_message: 'ESTA E UMA SHORT MESSAGE',
+       full_message: 'ESTA E UMA FULL MESSAGE'
+       }
+
+    
+    log.emit(message)
 
 
 
