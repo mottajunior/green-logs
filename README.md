@@ -18,7 +18,7 @@ This repository centralizes the logs by the systems, the package contains integr
 
 ## USAGE
 
-  let log = new GreenLogs(GrayLogHost)
+    let log = new GreenLogs(GrayLogHost)
     let message: LogOptions = {
       short_message: 'ESTA E UMA SHORT MESSAGE',
        full_message: 'ESTA E UMA FULL MESSAGE'
