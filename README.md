@@ -7,9 +7,13 @@ This repository centralizes the logs by the systems, the package contains integr
 
 
 ## FEATURES
+  -Send custom messages for GrayLog
+  -Logs information on method execution
+  
 
 
 ## INSTALL
+  npm i green-logs
 
 
 ## USAGE
