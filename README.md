@@ -18,14 +18,7 @@ This repository centralizes the logs by the systems, the package contains integr
 
 ## USAGE
 
-    let log = new GreenLogs(GrayLogHost)
-    let message: LogOptions = {
-      short_message: 'this is short message',
-       full_message: 'this is full message'
-       }
-
     
-    log.emit(message)
 
 
 
