@@ -8,7 +8,7 @@ This repository centralizes the logs by the systems, the package contains integr
 
 ## FEATURES
   1. Send custom messages for GrayLog
-  2. Logs information on method execution With Decorators
+  2. Logs information on method execution With Decorators (Shell && GrayLog)
   
 
 
@@ -17,6 +17,26 @@ This repository centralizes the logs by the systems, the package contains integr
 
 
 ## USAGE
+     //Instance a Singleton in your application
+     const log = new GreenLogs('127.0.0.1')
+     
+     //simple message
+     log.emit({short_message: 'this is short message'})
+     
+     //more Complex Message
+     let msg : LogOptions = {
+        short_message: 'short one',
+        full_message: 'full message',
+        additionalColumns:{
+            Title: 'this is Title',
+            Description: 'Description fake'
+        }
+     }
+     
+     log.emit(msg)
+  
+
+
 
     
 
