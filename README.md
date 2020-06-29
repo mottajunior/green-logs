@@ -17,9 +17,8 @@ This repository centralizes the logs by the systems, the package contains integr
 
 
 ## USAGE
-     //Instance a Singleton in your application
-     const log = new GreenLogs('127.0.0.1')
-         
+     //Instance a Singleton in your application and exported for everyone who needs.
+     export const log = new GreenLogs('127.0.0.1')              
      
      //simple message
      log.emit({short_message: 'this is short message'})
@@ -37,13 +36,15 @@ This repository centralizes the logs by the systems, the package contains integr
      log.emit(msg)
   
   
-    //Decorators (need instance of GreenLogs to use url host)
+    
+    //Decorators (log method name, and return informations in shell or gray log)
     
     @LogApplication
     function someFunction(){
       do something...
     }
     
+    //(need instance of GreenLogs to use setted gray log host.)
     @LogGrayLog
     function someFunction(){
       do something...
