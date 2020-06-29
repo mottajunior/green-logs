@@ -35,6 +35,20 @@ This repository centralizes the logs by the systems, the package contains integr
      
      log.emit(msg)
   
+  
+    //Decorators (need instance of GreenLogs to use url host)
+    
+    @LogApplication
+    function someFunction(){
+      do something...
+    }
+    
+    @LogGrayLog
+    function someFunction(){
+      do something...
+    }
+    
+    
 
 
 
