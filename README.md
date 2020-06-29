@@ -19,6 +19,7 @@ This repository centralizes the logs by the systems, the package contains integr
 ## USAGE
      //Instance a Singleton in your application
      const log = new GreenLogs('127.0.0.1')
+         
      
      //simple message
      log.emit({short_message: 'this is short message'})
